@@ -9,9 +9,9 @@ Also, the ending `.` is related to the directory you are building against.
 
 To run the image into a container, you'll run it with the command:
 
-`docker run -t <myimage>`
+`docker run -it <myimage>`
 
-The -t is to attach to interact with the shell.
+The -it is to attach to interact with the shell.
 Finally, the `<myimage>` is the name of the image we've created early on this example.
 
 Also, you can add some dependencies on the requirements.txt file to work with them just rebuilding the container.
